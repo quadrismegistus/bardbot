@@ -2,6 +2,13 @@ import gpt_2_simple as gpt2
 import tensorflow as tf
 import os
 import requests
+import sys
+
+sys.path.insert(0,'/Users/ryan/github/prosodic')
+import prosodic as p
+from collections import Counter
+
+p.config['print_to_screen']=0
 
 PATH_HERE=os.path.abspath(os.path.dirname(__file__))
 PATH_DATA=os.path.join(PATH_HERE,'data')
