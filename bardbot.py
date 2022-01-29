@@ -3,7 +3,6 @@ import tensorflow as tf
 import os
 import requests
 import sys
-
 sys.path.insert(0,'/Users/ryan/github/prosodic')
 import prosodic as p
 from collections import Counter
